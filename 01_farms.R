@@ -847,3 +847,4 @@ profits <- stats::reshape(profits, idvar = "code", timevar = "profits", directio
 # recode empty cells = 0
 profits$value[is.na(profits$value)] <- 0
 
+
